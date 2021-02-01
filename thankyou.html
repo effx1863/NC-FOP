@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Thank You Page</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <style>
+        body{
+                margin-left:auto;
+                margin-right:auto;
+                width:1325px;
+                background-image: url("/NCFOPLodge9/public/images/lodge9bg.png");
+                background-repeat: repeat;
+                background-size: 100%;
+            }
+            
+            
+        #thankyou {
+                margin: 50px 10px 10px 330px;
+                padding: 30px 0px 30px 0px;
+                font-family: arial, helvetica, san-serif;            
+                font-size: 1.1em;
+                font-weight: bold;
+                text-align: center;
+                background:rgba(220,200,230,0.5);
+                width: 650px;
+                color: #ff0000 ;
+                
+        }
+        #home {
+            
+         margin: 30px 0px 0px 150px;       
+        }
+        
+        #home a.two {
+        position: relative;
+        display: inline-block;        
+        }
+        #home .home {
+        font-family: arial, helvetica, san-serif;            
+        font-size: .8em;
+        color:white;
+        visibility: hidden;
+        width: 120px;
+        background-color: #002060;
+        color: #fff;
+        text-align: center;        
+        padding: 5px 5px 5px 5px;
+        margin: 98px 0px 0px -45px;      
+        position: absolute;
+        z-index: 1;
+        }
+
+        #home:hover .home {
+        visibility: visible;
+        }
+       </style>
+       <link rel="icon" type="image/png" href="favicon.ico"/>
+    </head>
+    <body>
+        
+        <div id="home">
+        <a href="NCLodge9.html"><img src="public/images/fop9white.png" alt="" width="170" height="130"/></a>
+        <span class="home">Back to Homepage</span>
+        </div>
+        <div id="thankyou">
+            <p>Thank You for completing the Member Login Registration process<br/>
+                You will receive a follow-up email to confirm your login has been activated.</p>
+            If you have any ideas or suggest for improvements to the website please<br/>
+            forward them to Danny Graham at danny@ncfoplodge9.com
+        </div>
+        <form action="upload.php" method="POST">
+  <input type="file" multiple>
+  <p>Drag your files here or click in this area.</p>
+  <button type="submit">Upload</button>
+</form>
+        
+        
+    </body>
+</html>
